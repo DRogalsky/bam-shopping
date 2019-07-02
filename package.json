@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DRogalsky/bam-shopping/issues"
   },
-  "homepage": "https://github.com/DRogalsky/bam-shopping#readme"
+  "homepage": "https://github.com/DRogalsky/bam-shopping#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
 }
