@@ -1,0 +1,19 @@
+{
+  "name": "bam-shopping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRogalsky/bam-shopping.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DRogalsky/bam-shopping/issues"
+  },
+  "homepage": "https://github.com/DRogalsky/bam-shopping#readme"
+}
