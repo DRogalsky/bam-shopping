@@ -39,6 +39,7 @@ function shopping() {
             let theItemChoice = parseInt(answers.itemChoice);
             
             let currentStock;
+            let totalPrice;
 
             connection.query("SELECT * FROM products WHERE ?"
             ,[
@@ -49,12 +50,14 @@ function shopping() {
              function (err, res) {
                 if (err) throw err;
                 currentStock = parseInt(res[0].stock_quantity) - answers.itemQuantity;
+                totalPrice = res[0].price * answers.itemQuantity;
                 if (currentStock < 0) {
                     console.log('Insufficient quantity!');
                     connection.end();
                     return;
                 }
                 console.log('Purchase successful!');
+                console.log('Total Price: ' + totalPrice)
                 connection.query(
                     "UPDATE products SET ? WHERE ?"
                 ,[

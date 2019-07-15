@@ -22,6 +22,16 @@ after you type in the number and press enter you will get a prompt that asks how
 
 ![the selection made and second prompt shown](/images/productnumber.png)
 
+You will then get a prompt for total price of your purchase and the program will be exited.
+
+![total and confirmation message](/images/successfulpurchase.png)
+
+If there is not enough of the item you want you will get an inssuficcent Quantity! message and the program will exit.
+
+![insufficient message](/images/insufficient.png)
+
+
+
 ## Packages Used
    * Inquirer
    * mysql
